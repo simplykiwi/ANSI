@@ -52,6 +52,7 @@ public:
   void cursorDown(uint8_t x);
   void cursorForward(uint8_t x);
   void cursorBack(uint8_t x);
+  void cursorHide();
 
 
   //  COLOR

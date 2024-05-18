@@ -143,6 +143,11 @@ void ANSI::cursorBack(uint8_t x)
   _stream->write('D');
 }
 
+// hide cursor
+void ANSI::cursorHide()
+{
+  _stream->write("\033[?25l", 6);
+}
 
 //////////////////////////////////////////////////////
 //
